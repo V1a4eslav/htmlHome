@@ -6,6 +6,7 @@ window.addEventListener("load", function (event) {
    const btnGenerat = document.querySelector('.generator__btn_generate');
    const countNumberGenerator = document.querySelector('.generator__count-number');
 
+
    btnGenerat.addEventListener("click", function (e) {
       e.preventDefault();
       const min = +minInputText.value;
